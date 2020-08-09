@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* accordian */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top:2px; font-size:80%; 
+	padding:8px 10px 8px 15px ; background:#463d81; color:#ffffff; font-weight:600;
+	min-height: 0; /* support: IE7 */
+}
+.ui-accordion .ui-accordion-icons {
+	/*padding-left: 2em;*/
+}
+.ui-accordion .ui-accordion-noicons {
+	padding-left: .7em;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	right: .5em ;
+	top: 50%;
+	margin-top: -6px;
+}
+.ui-accordion .ui-accordion-content {
+	padding:15px 1em 15px 1em; border-top: 0; overflow:auto; background:#f4f4f4; font-size:13px; color:#464545;
+}
+
+.ui-state-default .ui-icon {
+    background-image:url(../assets/images/accordion.png);
+}
+.ui-icon-triangle-1-e {
+    background-position: left 0;
+}
+.ui-icon-triangle-1-s {
+    background-position:left -12px;
+}
+.ui-icon {
+    height: 16px; width: 15px; float:right; margin-top:3px;
+}
+.ui-icon {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image:url(../assets/images/accordion.png);
+}
